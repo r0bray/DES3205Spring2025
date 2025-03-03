@@ -1,5 +1,5 @@
 :root {
-  --globalNavBoxShadow: 0 1px 3px rgba(0, 0, 0, .1), 0 2px 2px rgba(0, 0, 0, .06), 0 0 2px rgba(0, 0, 0, .07);
+  --bottomNavBoxShadow: 0 2px 2px -1px rgba(0, 0, 0, 0.2);
   --starbucksGreen: #006241;
   --CoolNeutrual: #F5F3F0;
 }
@@ -50,45 +50,48 @@ h2 {
 
 header {
   display: flex;
-  height: 50px;
+  height: 54px;
   background-color: white;
-  box-shadow: var(--globalNavBoxShadow);
+  box-shadow: var(--bottomNavBoxShadow);
   padding-top: 20px;
   padding-bottom: 20px;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 10.2rem;
+  padding-right: 10.2rem;
 }
 
 .logo img {
   height: 50px;
 }
 
+header nav {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
 header nav ul {
   list-style: none;
   display: flex;
   justify-content: left;
+  font-size: .9rem;
+}
+
+header nav ul.nav-links {
+  display: flex;
+  gap: 2.4rem;
+  text-transform: uppercase;
+}
+
+header nav ul.find-sign {
+  margin-left: auto;
   gap: 20px;
+  letter-spacing: 0px;
 }
 
 header nav ul li a {
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 500;
   color: black;
-}
-
-.nav-links {
-  display: flex;
-  gap: 20px;
-}
-
-.find-store {
-  display: flex;
-  gap: 20px;
-}
-
-.sign-in {
-  display: flex;
-  gap: 20px;
 }
 
 .promo-block {
@@ -150,10 +153,36 @@ header nav ul li a {
   margin-top: 2.2rem;
 }
 
+.nav-button {
+  padding: .4rem 1.1rem;
+  border: 1px solid black;
+  border-radius: 50px;
+  font-size: .8rem;
+  letter-spacing: 0px;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  margin-top: 2.2rem;
+}
+
+.invert {
+  color: white;
+  background-color: black;
+}
+
 sup {
   top: -.5em;
   font-size: 75%;
   line-height: 0;
   position: relative;
   vertical-align: baseline;
+}
+
+.drop-pin {
+  height: 21px;
+  margin-top: 1px;
+}
+
+.find {
+  margin-right: 2rem;
 }
