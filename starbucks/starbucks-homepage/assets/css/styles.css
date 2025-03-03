@@ -1,6 +1,7 @@
 :root {
   --globalNavBoxShadow: 0 1px 3px rgba(0, 0, 0, .1), 0 2px 2px rgba(0, 0, 0, .06), 0 0 2px rgba(0, 0, 0, .07);
   --starbucksGreen: #006241;
+  --CoolNeutrual: #F5F3F0;
 }
 
 @font-face {
@@ -96,7 +97,14 @@ header nav ul li a {
   align-items: center;
   margin-top: 2rem;
   margin-bottom: 2rem;
+}
+
+.green-block {
   background-color: var(--starbucksGreen);
+}
+
+.cool-block {
+  background-color: var(--CoolNeutrual);
 }
 
 .image {
@@ -104,13 +112,33 @@ header nav ul li a {
 }
 
 .promo-text {
-  padding: 4.8rem;
+  padding: 4rem 4.8rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   color: white;
+}
+
+.white-text {
+  color: white;
+}
+
+.green-text {
+  color: var(--starbucksGreen);
+}
+
+.button {
+  background-color: var(--starbucksGreen);
+  padding: .4rem 1.1rem;
+  border: 1px solid white;
+  border-radius: 50px;
+  font-size: 1rem;
+  letter-spacing: 0px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 sup {
