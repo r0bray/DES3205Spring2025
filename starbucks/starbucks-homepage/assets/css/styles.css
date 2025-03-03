@@ -1,7 +1,7 @@
 :root {
   --bottomNavBoxShadow: 0 2px 2px -1px rgba(0, 0, 0, 0.2);
   --starbucksGreen: #006241;
-  --CoolNeutrual: #F5F3F0;
+  --CoolNeutral: #F5F3F0;
 }
 
 @font-face {
@@ -40,7 +40,7 @@ h2 {
   font-weight: 500;
   font-size: 3rem;
   line-height: 1.2;
-  letter-spacing: 6.5%;
+  letter-spacing: 0.1rem;
 }
 
 .container {
@@ -53,10 +53,10 @@ header {
   height: 54px;
   background-color: white;
   box-shadow: var(--bottomNavBoxShadow);
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 10.2rem;
-  padding-right: 10.2rem;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
 }
 
 .logo img {
@@ -73,19 +73,18 @@ header nav ul {
   list-style: none;
   display: flex;
   justify-content: left;
-  font-size: .9rem;
+  font-size: .88rem;
 }
 
 header nav ul.nav-links {
   display: flex;
-  gap: 2.4rem;
+  gap: 1rem;
   text-transform: uppercase;
 }
 
 header nav ul.find-sign {
   margin-left: auto;
-  gap: 20px;
-  letter-spacing: 0px;
+  letter-spacing: normal;
 }
 
 header nav ul li a {
@@ -107,7 +106,7 @@ header nav ul li a {
 }
 
 .cool-block {
-  background-color: var(--CoolNeutrual);
+  background-color: var(--CoolNeutral);
 }
 
 .cool-block p {
@@ -163,6 +162,7 @@ header nav ul li a {
   text-decoration: none;
   cursor: pointer;
   margin-top: 2.2rem;
+  margin-left: 1rem;
 }
 
 .invert {
@@ -184,5 +184,6 @@ sup {
 }
 
 .find {
+  margin-left: .8rem;
   margin-right: 2rem;
 }
