@@ -1,0 +1,122 @@
+:root {
+  --globalNavBoxShadow: 0 1px 3px rgba(0, 0, 0, .1), 0 2px 2px rgba(0, 0, 0, .06), 0 0 2px rgba(0, 0, 0, .07);
+  --starbucksGreen: #006241;
+}
+
+@font-face {
+  font-family: 'SoDoSans';
+  src: url('../fonts/SoDoSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SoDoSans';
+  src: url('../fonts/SoDoSans-SemiBold.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SoDoSans';
+  src: url('../fonts/SoDoSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  font-family: 'SoDoSans', Arial, sans-serif;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  letter-spacing: 2px;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: 'SoDoSans', Arial, sans-serif;
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 1.2;
+  letter-spacing: 6.5%;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  height: 50px;
+  background-color: white;
+  box-shadow: var(--globalNavBoxShadow);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.logo img {
+  height: 50px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: left;
+  gap: 20px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.find-store {
+  display: flex;
+  gap: 20px;
+}
+
+.sign-in {
+  display: flex;
+  gap: 20px;
+}
+
+.promo-block {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-color: var(--starbucksGreen);
+}
+
+.image {
+  width: 640px;
+}
+
+.promo-text {
+  padding: 4.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+sup {
+  top: -.5em;
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
