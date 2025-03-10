@@ -1,7 +1,7 @@
 :root {
   --bottom-nav-box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.2);
-  --starbucks-green: #006241;
-  --cool-neutral: #F5F3F0;
+  --deep-sea-blue: #252a2d;
+  --cool-neutral: #ddeff6;
 }
 
 @font-face {
@@ -115,7 +115,7 @@ header nav ul li a {
 }
 
 .green-block {
-  background-color: var(--starbucks-green);
+  background-color: var(--deep-sea-blue);
 }
 
 .cool-block {
@@ -127,7 +127,7 @@ header nav ul li a {
 }
 
 .cool-block a {
-  color: var(--starbucks-green);
+  color: var(--deep-sea-blue);
 }
 
 .cool-block .button-black {
@@ -153,12 +153,12 @@ header nav ul li a {
 }
 
 .green-text {
-  color: var(--starbucks-green);
+  color: var(--deep-sea-blue);
 }
 
 .button-green {
   color: white;
-  background-color: var(--starbucks-green);
+  background-color: var(--deep-sea-blue);
   padding: .4rem 1.1rem;
   border: 1px solid white;
   border-radius: 50px;
