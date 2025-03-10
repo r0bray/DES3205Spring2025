@@ -22,8 +22,19 @@
   font-family: 'Quicksand';
   src: url('../fonts/Quicksand-Medium.ttf') format('truetype');
   font-weight: 500;
-  font-style: normal;
 }
+
+/* Font weight guide 
+100 thin
+200 extra-light (ultra-light)
+300 light
+400 normal
+500 medium
+600 semi-bold (demi-bold)
+700 bold
+800 extra-bold
+900 black (heavy)
+*/
 
 
 body {
